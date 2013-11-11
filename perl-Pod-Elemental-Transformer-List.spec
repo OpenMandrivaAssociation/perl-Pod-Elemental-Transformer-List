@@ -1,15 +1,15 @@
 %define upstream_name    Pod-Elemental-Transformer-List
-%define upstream_version 0.101620
+%define upstream_version 0.102000
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Transform :list regions into =over/=back to save typing
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Pod/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Elemental-Transformer-List-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Moose)
@@ -55,3 +55,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sun Jan 10 2010 cpan2dist 0.093580-1mdv
 - initial mdv release, generated with cpan2dist
+
