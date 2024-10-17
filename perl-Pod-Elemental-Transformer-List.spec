@@ -8,7 +8,7 @@ Release:	3
 Summary:	Transform :list regions into =over/=back to save typing
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Elemental-Transformer-List-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
