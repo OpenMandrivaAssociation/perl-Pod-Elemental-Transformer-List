@@ -1,15 +1,15 @@
 %define upstream_name    Pod-Elemental-Transformer-List
-%define upstream_version 0.102000
+%define upstream_version 0.102001
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Transform :list regions into =over/=back to save typing
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Elemental-Transformer-List-%{upstream_version}.tar.gz
+Url:		https://github.com/rjbs/Pod-Elemental-Transformer-List
+Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Pod-Elemental-Transformer-List-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
